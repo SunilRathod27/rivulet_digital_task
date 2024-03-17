@@ -71,7 +71,10 @@ export default {
               },
             });
 
-            this.$router.push("/");
+            this.$router.push('/');
+    setTimeout(() => {
+      window.location.reload();
+    }, 400); 
           } else {
             alert(responce.message);
           }
