@@ -1,1 +1,3 @@
-# rivulet_digital_task
+steps .
+1. npm install
+2. npm run  rivulet
